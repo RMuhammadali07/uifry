@@ -1,0 +1,24 @@
+.features {
+    position: relative;
+    padding: 10px 100px;
+}
+
+.features .container {
+    display: flex;   
+}
+
+.features-imgs .star1 {
+    position: absolute;
+}
+
+.features-imgs .rang1 {
+    position: absolute;
+}
+
+.features-imgs .chiziq1{
+    position: absolute;
+}
+
+.features-img {
+    transform: rotate(15deg);
+}

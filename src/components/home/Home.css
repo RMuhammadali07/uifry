@@ -1,0 +1,119 @@
+.home{
+    position: relative;
+    padding: 10px 100px;
+}
+
+.home .container {
+    display: flex;
+}
+
+.home-left{
+    width: 600px;
+}
+
+.home .star1 {
+    position: absolute;
+    left: 15px;
+}
+
+.home .rang-lf {
+    position: absolute;
+    left: 300px;
+    top: -10px;
+    z-index: -1;
+    width: 370px;
+}
+
+.home-left h1{
+    margin-top: 100px;
+    font-size: 54px;
+    font-weight: 100;
+}
+
+.home-left p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.home .buttons {
+    display: flex;
+}
+
+.home .buttons .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all .7s ease;
+}
+
+.home .buttons .btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.home .buttons .video {
+    border: none;
+    background: #fff;
+    padding: 0 25px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home .star2 {
+    position: absolute;
+    top: 430px;
+    left: 220px;
+}
+
+
+
+
+.home-right .phone1,
+.home-right .phone2,
+.home-right .phone3,
+.home-right .chiziq1{
+    position: absolute;
+}
+
+.home-right .phone1 {
+    top: -50px;
+    right: 300px;
+    z-index: 4;
+}
+
+.home-right .phone2 {
+    top: 30px;
+    right: 180px;
+    z-index: 3;
+}
+
+.home-right .phone3 {
+    top: 95px;
+    right: 60px;
+}
+
+.home-right .star3 {
+    position: absolute;
+    top: -40px;
+    right: 30px;
+}
+.home-right .chiziq1 {
+    position: absolute;
+    top: -40px;
+}
+
+.home-right .rang-rg {
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    transform: rotate(200deg);
+    z-index: -1;
+}
+
+.home-right .star4 {
+    position: absolute;
+    top: 600px;
+    right: 650px;   
+}
