@@ -1,0 +1,40 @@
+.advadnages {
+    position: relative;
+    padding: 10px 150px;
+}
+
+.advadnages-container {
+    display: flex;
+    /* gap: 100px; */
+}
+
+.advadnages-info div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 20px;
+}
+
+.advadnages-info > h1 {
+    font-size: 48px;
+    margin: 5px 0 30px ;
+}
+
+.advadnages-info div h1 {
+    font-size: 28px;
+}
+
+.advadnages-info div img {
+    width: 30px;
+}
+
+.advadnages-info p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #00000085;
+    padding: 0 120px 0 0;
+}
+
+.advadnages-img img{
+    width: 700px;
+}

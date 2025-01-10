@@ -1,0 +1,37 @@
+.fully {
+    padding: 10px 100px;
+}
+
+.fully-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.fully-img img{
+    width: 600px;
+}
+
+.fully-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fully-info div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fully-info img {
+    width: 30px;
+}
+
+.fully-info p {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 100px 0 0;
+    color: #00000085;
+}

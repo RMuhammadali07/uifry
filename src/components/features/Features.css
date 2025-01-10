@@ -1,24 +1,37 @@
 .features {
     position: relative;
-    padding: 10px 100px;
+    padding: 10px 150px;
 }
 
 .features .container {
-    display: flex;   
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
 }
 
-.features-imgs .star1 {
-    position: absolute;
+.features-img img {
+    width: 700px;
 }
 
-.features-imgs .rang1 {
-    position: absolute;
+.features-info h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 15px 0 30px;
 }
 
-.features-imgs .chiziq1{
-    position: absolute;
+.features-info .con1 div,
+.features-info .con2 div,
+.features-info .con3 div{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    margin: 25px 0 10px;
 }
 
-.features-img {
-    transform: rotate(15deg);
+.features-info p {
+    font-size: 18px;
+    color: #00000085;
+    padding: 0 50px 0 0;
 }
+    

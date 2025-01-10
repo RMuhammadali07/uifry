@@ -1,0 +1,54 @@
+.download {
+    position: relative;
+    margin-top: 150px;
+    padding: 10px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.download > img {
+    position: absolute;
+    top: -200px;
+    left: -50px;
+    z-index: -1;
+}
+
+.download-container{
+    width: 2500px;
+    height: 500px;
+    background: url(../../assets/download-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 450px 70px 70px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.download-container h1{
+    font-size: 48px;
+}
+
+.download-container p{
+    font-size: 18px;
+}
+
+.download-btn {
+    width: 200px;
+    padding: 13px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+    i {
+        font-size: 24px;
+    }
+}

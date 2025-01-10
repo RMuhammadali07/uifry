@@ -20,18 +20,10 @@ const Home = () => {
             <button className='video'><img src={assets.home_video} alt="" /> watch video</button>
           </div>
           <img className='star2' src={assets.star} alt="" />
-          <img src={assets.home_lf_img} alt="" />
+          <img className='home-lf-img' src={assets.home_lf_img} alt="" />
         </div>
         <div className="home-right">
-          <img className='chiziq1' src={assets.home_bg} alt="" />
-          <img className='star3' src={assets.star} alt="" />
-          <div className="phone">
-            <img className='phone1' src={assets.home_img1} alt="" />
-            <img className='phone2' src={assets.home_img2} alt="" />
-            <img className='phone3' src={assets.home_img1} alt="" />
-          </div>
-          <img className='star4' src={assets.star} alt="" />
-          <img className='rang-rg' src={assets.color} alt="" />
+          <img src={assets.home_bg} alt="" />
         </div>
       </div>
     </div>

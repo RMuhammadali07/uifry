@@ -6,15 +6,12 @@ const Features = () => {
   return (
     <div className="features">
       <div className="container">
-        <div className="features-imgs">
-          <img className='star1' src={assets.star} alt="" />
-          <img className='rang1' src={assets.color} alt="" />
-          <img className='chiziq1' src={assets.home_bg} alt="" />
-          <img className='features-img' src={assets.home_img1} alt="" />
+        <div className="features-img">
+          <img src={assets.features_bg} alt="" />
         </div>
-        <div className="info">
-          <h5>features</h5>
-          <h1>uifry premium</h1>
+        <div className="features-info">
+          <h5 className='title'>FEATURES</h5>
+          <h1>Uifry Premium</h1>
 
           <div className="con1">
             <div>
@@ -23,7 +20,8 @@ const Features = () => {
             </div>
             <p>
               Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
-              faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+              faucibus tincidunt eu adipiscing sociis arcu lorem porttitor
+              onvallis risus placerat aliquam.
             </p>
           </div>
 
@@ -34,7 +32,8 @@ const Features = () => {
             </div>
             <p>
               Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
-              faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+              faucibus tincidunt eu adipiscing sociis arcu lorem porttitor
+              onvallis risus placerat aliquam.
             </p>
           </div>
 
@@ -45,10 +44,10 @@ const Features = () => {
             </div>
             <p>
               Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
-              faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+              faucibus tincidunt eu adipiscing sociis arcu lorem porttitor
+              onvallis risus placerat aliquam.
             </p>
           </div>
-          <img className='rang2' src={assets.color} alt="" />
         </div>
       </div>
     </div>

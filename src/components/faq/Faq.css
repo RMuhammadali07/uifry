@@ -1,0 +1,52 @@
+.faq {
+    padding: 10px 150px;
+}
+
+.faq-title h1{
+    font-size: 44px;
+    margin: 10px 0 50px;
+}
+
+.faq-container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.faq-left,
+.faq-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-container .color-red {
+    padding: 30px;
+    background: #ff5555;
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-container .color-white{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.faq-container {
+    h2 {
+        font-size: 28px;
+    }
+    p {
+        line-height: 27px;
+        font-size: 18px;
+    }
+    .color-white p {
+        color: #00000085;
+    }
+}
