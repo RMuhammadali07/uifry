@@ -1,18 +1,12 @@
 .home{
-    position: relative;
-    padding: 10px 150px;
+    padding: 10px 100px;
 }
 
 .home .container {
     display: flex;
     justify-content: center;
-    gap: 60px;
 }
-
-.home-left{
-    width: 600px;
-}
-
+ 
 .home .star1 {
     position: absolute;
     left: 15px;
@@ -28,12 +22,12 @@
 
 .home-left h1{
     margin-top: 100px;
-    font-size: 54px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .home-left p{
-    font-size: 20px;
+    font-size: 18px;
     margin: 20px 0;
 }
 
@@ -73,16 +67,72 @@
 }
 
 .home-lf-img {
-    position: relative;
     left: -30px;
-}
-
-.home .star2 {
-    position: absolute;
-    top: 430px;
-    left: 220px;
+    width: 400px;
 }
 
 .home-right img {
-    width: 700px;
+    width: 600px;
+} 
+
+@media (max-width: 1300px) {
+    .home-left h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .home-left h1 {
+        font-size: 24px;
+    }
+    .home-left p {
+        font-size: 14px;
+    }
+    .home .buttons .btn{
+        font-size: 12px;
+    }
+    .home .buttons .video {
+        font-size: 12px;
+    }
+    .home-right img {
+        width: 500px;
+    }
+    .home-lf-img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 850px) {
+    .home .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .home .buttons{
+        justify-content: center;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .home-left p {
+        padding: 10px 50px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .home {
+        padding: 10px 30px;
+    }
+    .home-left h1{
+        font-size: 18px;
+    }
+    .home-left p{
+        font-size: 12px;
+        padding: 10px 0 0;
+    }
+    .home-lf-img{
+        width: 250px;
+    }
+    .home-right img {
+        width: 400px;
+    }
 }

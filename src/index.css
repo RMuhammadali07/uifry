@@ -26,3 +26,10 @@ a {
     letter-spacing: 7px;
     color: #FF5555;
 }
+
+@media (max-width: 1150px) {
+    .title {
+        font-size: 16px;
+        letter-spacing: 6px;
+    }
+}

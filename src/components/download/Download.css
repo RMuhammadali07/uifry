@@ -18,6 +18,7 @@
     height: 500px;
     background: url(../../assets/download-bg.png);
     background-size: cover;
+    background-position: -100px;
     background-repeat: no-repeat;
     color: #fff;
     display: flex;
@@ -50,5 +51,64 @@
 
     i {
         font-size: 24px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .download-container {
+        padding: 70px 300px 70px 70px;
+    }
+    .download-container h1{
+        font-size: 28px;
+    }
+    .download-container p{
+        font-size: 14px;
+    }
+    .download-btn {
+        font-size: 15px;
+        padding: 10px;
+        i {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .download-container {
+        background-position: -250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .download {
+        padding: 10px 50px;
+    }
+    .download-container {
+        padding: 70px 200px 70px 50px;
+    }
+    .download > img {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .download-container {
+        padding: 50px;
+        background-position: -450px;
+    }
+    .download-container h1{
+        font-size: 20px;
+    }
+    .download-container p{
+        font-size: 12px;
+    }
+    .download-btn {
+        font-size: 14px;
+        padding: 10px;
+        width: 150px;
+        i {
+            font-size: 16px;
+        }
     }
 }

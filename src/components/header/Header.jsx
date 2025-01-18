@@ -1,8 +1,15 @@
 import React from 'react'
 import "./Header.css"
 import {assets} from "../../assets/assets"
+import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
+
+  const toggleMenu = () => {
+    const menu = document.querySelector('.header nav ul');
+    menu.classList.toggle('action');
+  }
+
   return (
     <div className="header">
       <div className='container'>
@@ -28,6 +35,7 @@ const Header = () => {
       </div>
       <div className="button">
         <button className="btn">Download</button>
+        <i onClick={toggleMenu}><TiThMenu /></i>
       </div>
     </div>
   );

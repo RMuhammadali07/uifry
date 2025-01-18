@@ -1,6 +1,6 @@
 footer {
     margin-top: 100px;
-    padding: 10px 100px;
+    padding: 10px 150px;
 }
 footer .container {
     display: flex;
@@ -61,4 +61,62 @@ footer a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1100px) {
+    footer {
+        padding: 10px 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    footer .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 10px 100px;
+    }
+
+    footer .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    footer {
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width: 470px) {
+    footer .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-link,
+    .footer-legal,
+    .footer-product,
+    .footer-newslatter {
+    h1 {
+        font-size: 24px;
+    }
+    a{
+        font-size: 12px;
+    }
+}
+.footer-input {
+    margin-right: auto;
+}
 }

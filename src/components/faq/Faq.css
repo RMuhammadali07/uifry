@@ -50,3 +50,34 @@
         color: #00000085;
     }
 }
+
+
+@media (max-width: 1000px) {
+    .faq-title h1{
+        font-size: 30px;
+    }
+    .faq-title .title {
+        font-size: 16px;
+    }
+    .faq-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .faq {
+        padding: 10px 50px;
+    }
+    .faq-container {
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .color-white p {
+        color: #00000085;
+    }
+}
+
+}

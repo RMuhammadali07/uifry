@@ -35,3 +35,55 @@
     padding: 0 100px 0 0;
     color: #00000085;
 }
+
+@media (max-width: 1200px) {
+    .fully-info h1 {
+        font-size: 28px;
+    }
+    .fully-img img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .fully-info {
+        gap: 20px;
+    }
+    .fully-info h1 {
+        font-size: 24px;
+    }
+    .fully-info p {
+        padding: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .fully-container {
+        flex-direction: column;
+    }
+    .fully-info {
+        padding: 0 100px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .fully {
+        padding: 10px 50px;
+    }
+    .fully-info {
+        padding: 0 0 0;
+    }
+
+    .fully-img img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .fully-info div h1 {
+        font-size: 18px;
+    }
+    .fully-info p {
+        font-size: 14px;
+    }
+}
